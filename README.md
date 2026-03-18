@@ -90,7 +90,6 @@ const dhusyanth = {
 
 ---
 
-## ◈ Featured Projects
  
 <div align="center">
   <img src="./featured_projects.svg" width="100%" alt="Featured Projects"/>
