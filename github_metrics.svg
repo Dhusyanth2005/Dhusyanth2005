@@ -1,0 +1,115 @@
+<svg width="900" height="520" viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accent-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#39d353"/>
+      <stop offset="60%" stop-color="#39d353" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="card-border-g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#39d353" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="card-border-s" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#39d353" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="card-border-l" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#39d353" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="glow-top" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#39d353" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip-stats">
+      <rect x="24" y="100" width="412" height="175" rx="10"/>
+    </clipPath>
+    <clipPath id="clip-streak">
+      <rect x="462" y="100" width="412" height="175" rx="10"/>
+    </clipPath>
+    <clipPath id="clip-langs">
+      <rect x="200" y="315" width="500" height="175" rx="10"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="520" fill="#0d1117" rx="16"/>
+
+  <!-- Subtle dot grid -->
+  <g opacity="0.035" fill="#ffffff">
+    <circle cx="60" cy="60" r="1"/><circle cx="120" cy="60" r="1"/><circle cx="180" cy="60" r="1"/><circle cx="240" cy="60" r="1"/><circle cx="300" cy="60" r="1"/><circle cx="360" cy="60" r="1"/><circle cx="420" cy="60" r="1"/><circle cx="480" cy="60" r="1"/><circle cx="540" cy="60" r="1"/><circle cx="600" cy="60" r="1"/><circle cx="660" cy="60" r="1"/><circle cx="720" cy="60" r="1"/><circle cx="780" cy="60" r="1"/><circle cx="840" cy="60" r="1"/>
+    <circle cx="60" cy="120" r="1"/><circle cx="120" cy="120" r="1"/><circle cx="180" cy="120" r="1"/><circle cx="240" cy="120" r="1"/><circle cx="300" cy="120" r="1"/><circle cx="360" cy="120" r="1"/><circle cx="420" cy="120" r="1"/><circle cx="480" cy="120" r="1"/><circle cx="540" cy="120" r="1"/><circle cx="600" cy="120" r="1"/><circle cx="660" cy="120" r="1"/><circle cx="720" cy="120" r="1"/><circle cx="780" cy="120" r="1"/><circle cx="840" cy="120" r="1"/>
+    <circle cx="60" cy="180" r="1"/><circle cx="120" cy="180" r="1"/><circle cx="180" cy="180" r="1"/><circle cx="240" cy="180" r="1"/><circle cx="300" cy="180" r="1"/><circle cx="360" cy="180" r="1"/><circle cx="420" cy="180" r="1"/><circle cx="480" cy="180" r="1"/><circle cx="540" cy="180" r="1"/><circle cx="600" cy="180" r="1"/><circle cx="660" cy="180" r="1"/><circle cx="720" cy="180" r="1"/><circle cx="780" cy="180" r="1"/><circle cx="840" cy="180" r="1"/>
+    <circle cx="60" cy="240" r="1"/><circle cx="120" cy="240" r="1"/><circle cx="180" cy="240" r="1"/><circle cx="240" cy="240" r="1"/><circle cx="300" cy="240" r="1"/><circle cx="360" cy="240" r="1"/><circle cx="420" cy="240" r="1"/><circle cx="480" cy="240" r="1"/><circle cx="540" cy="240" r="1"/><circle cx="600" cy="240" r="1"/><circle cx="660" cy="240" r="1"/><circle cx="720" cy="240" r="1"/><circle cx="780" cy="240" r="1"/><circle cx="840" cy="240" r="1"/>
+    <circle cx="60" cy="300" r="1"/><circle cx="120" cy="300" r="1"/><circle cx="180" cy="300" r="1"/><circle cx="240" cy="300" r="1"/><circle cx="300" cy="300" r="1"/><circle cx="360" cy="300" r="1"/><circle cx="420" cy="300" r="1"/><circle cx="480" cy="300" r="1"/><circle cx="540" cy="300" r="1"/><circle cx="600" cy="300" r="1"/><circle cx="660" cy="300" r="1"/><circle cx="720" cy="300" r="1"/><circle cx="780" cy="300" r="1"/><circle cx="840" cy="300" r="1"/>
+    <circle cx="60" cy="360" r="1"/><circle cx="120" cy="360" r="1"/><circle cx="180" cy="360" r="1"/><circle cx="240" cy="360" r="1"/><circle cx="300" cy="360" r="1"/><circle cx="360" cy="360" r="1"/><circle cx="420" cy="360" r="1"/><circle cx="480" cy="360" r="1"/><circle cx="540" cy="360" r="1"/><circle cx="600" cy="360" r="1"/><circle cx="660" cy="360" r="1"/><circle cx="720" cy="360" r="1"/><circle cx="780" cy="360" r="1"/><circle cx="840" cy="360" r="1"/>
+    <circle cx="60" cy="420" r="1"/><circle cx="120" cy="420" r="1"/><circle cx="180" cy="420" r="1"/><circle cx="240" cy="420" r="1"/><circle cx="300" cy="420" r="1"/><circle cx="360" cy="420" r="1"/><circle cx="420" cy="420" r="1"/><circle cx="480" cy="420" r="1"/><circle cx="540" cy="420" r="1"/><circle cx="600" cy="420" r="1"/><circle cx="660" cy="420" r="1"/><circle cx="720" cy="420" r="1"/><circle cx="780" cy="420" r="1"/><circle cx="840" cy="420" r="1"/>
+    <circle cx="60" cy="480" r="1"/><circle cx="120" cy="480" r="1"/><circle cx="180" cy="480" r="1"/><circle cx="240" cy="480" r="1"/><circle cx="300" cy="480" r="1"/><circle cx="360" cy="480" r="1"/><circle cx="420" cy="480" r="1"/><circle cx="480" cy="480" r="1"/><circle cx="540" cy="480" r="1"/><circle cx="600" cy="480" r="1"/><circle cx="660" cy="480" r="1"/><circle cx="720" cy="480" r="1"/><circle cx="780" cy="480" r="1"/><circle cx="840" cy="480" r="1"/>
+  </g>
+
+  <!-- Header section -->
+  <rect x="24" y="22" width="4" height="36" rx="2" fill="#39d353"/>
+  <text x="38" y="44" font-family="'Segoe UI', system-ui, sans-serif" font-size="20" font-weight="700" fill="#ffffff" letter-spacing="-0.3">◈ GitHub Metrics</text>
+  <line x1="222" y1="40" x2="820" y2="40" stroke="url(#accent-line)" stroke-width="0.8"/>
+  <!-- tag -->
+  <rect x="826" y="28" width="52" height="20" rx="4" fill="#39d353" fill-opacity="0.1" stroke="#39d353" stroke-opacity="0.4" stroke-width="0.8"/>
+  <text x="852" y="42" font-family="'Courier New', monospace" font-size="9" fill="#39d353" text-anchor="middle" letter-spacing="0.8">LIVE</text>
+
+  <!-- Labels row -->
+  <!-- Stats label -->
+  <rect x="24" y="76" width="10" height="10" rx="2" fill="#39d353" fill-opacity="0.2" stroke="#39d353" stroke-width="0.8"/>
+  <text x="40" y="86" font-family="'Courier New', monospace" font-size="10" fill="#39d353" letter-spacing="0.5">GITHUB STATS</text>
+  <!-- Streak label -->
+  <rect x="462" y="76" width="10" height="10" rx="2" fill="#39d353" fill-opacity="0.2" stroke="#39d353" stroke-width="0.8"/>
+  <text x="478" y="86" font-family="'Courier New', monospace" font-size="10" fill="#39d353" letter-spacing="0.5">STREAK</text>
+
+  <!-- ── STATS CARD frame ── -->
+  <rect x="22" y="93" width="416" height="188" rx="12" fill="url(#glow-top)" stroke="url(#card-border-g)" stroke-width="1"/>
+  <rect x="22" y="93" width="416" height="3" rx="2" fill="#39d353" opacity="0.7"/>
+  <!-- corner decorators -->
+  <rect x="22" y="93" width="12" height="1.5" rx="1" fill="#39d353"/>
+  <rect x="22" y="93" width="1.5" height="12" rx="1" fill="#39d353"/>
+  <rect x="426" y="93" width="12" height="1.5" rx="1" fill="#39d353"/>
+  <rect x="436.5" y="93" width="1.5" height="12" rx="1" fill="#39d353"/>
+  <rect x="22" y="269" width="12" height="1.5" rx="1" fill="#39d353" opacity="0.5"/>
+  <rect x="22" y="257" width="1.5" height="12" rx="1" fill="#39d353" opacity="0.5"/>
+  <rect x="426" y="269" width="12" height="1.5" rx="1" fill="#39d353" opacity="0.5"/>
+  <rect x="436.5" y="257" width="1.5" height="12" rx="1" fill="#39d353" opacity="0.5"/>
+  <!-- Embedded stats image -->
+  <image href="https://github-readme-stats.vercel.app/api?username=Dhusyanth2005&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=39d353&icon_color=39d353&text_color=c9d1d9&ring_color=39d353" x="24" y="96" width="412" height="182" clip-path="url(#clip-stats)" preserveAspectRatio="xMidYMid meet"/>
+
+  <!-- ── STREAK CARD frame ── -->
+  <rect x="460" y="93" width="416" height="188" rx="12" fill="url(#glow-top)" stroke="url(#card-border-s)" stroke-width="1"/>
+  <rect x="460" y="93" width="416" height="3" rx="2" fill="#39d353" opacity="0.7"/>
+  <rect x="460" y="93" width="12" height="1.5" rx="1" fill="#39d353"/>
+  <rect x="460" y="93" width="1.5" height="12" rx="1" fill="#39d353"/>
+  <rect x="864" y="93" width="12" height="1.5" rx="1" fill="#39d353"/>
+  <rect x="874.5" y="93" width="1.5" height="12" rx="1" fill="#39d353"/>
+  <rect x="460" y="269" width="12" height="1.5" rx="1" fill="#39d353" opacity="0.5"/>
+  <rect x="460" y="257" width="1.5" height="12" rx="1" fill="#39d353" opacity="0.5"/>
+  <rect x="864" y="269" width="12" height="1.5" rx="1" fill="#39d353" opacity="0.5"/>
+  <rect x="874.5" y="257" width="1.5" height="12" rx="1" fill="#39d353" opacity="0.5"/>
+  <image href="https://github-readme-streak-stats.herokuapp.com/?user=Dhusyanth2005&theme=tokyonight&hide_border=true&background=0d1117&stroke=39d353&ring=39d353&fire=00ff7f&currStreakLabel=39d353&sideLabels=39d353&dates=c9d1d9" x="462" y="96" width="412" height="182" clip-path="url(#clip-streak)" preserveAspectRatio="xMidYMid meet"/>
+
+  <!-- Langs label -->
+  <rect x="200" y="304" width="10" height="10" rx="2" fill="#39d353" fill-opacity="0.2" stroke="#39d353" stroke-width="0.8"/>
+  <text x="216" y="314" font-family="'Courier New', monospace" font-size="10" fill="#39d353" letter-spacing="0.5">TOP LANGUAGES</text>
+
+  <!-- ── LANGS CARD frame ── -->
+  <rect x="198" y="308" width="504" height="192" rx="12" fill="url(#glow-top)" stroke="url(#card-border-l)" stroke-width="1"/>
+  <rect x="198" y="308" width="504" height="3" rx="2" fill="#39d353" opacity="0.7"/>
+  <rect x="198" y="308" width="12" height="1.5" rx="1" fill="#39d353"/>
+  <rect x="198" y="308" width="1.5" height="12" rx="1" fill="#39d353"/>
+  <rect x="690" y="308" width="12" height="1.5" rx="1" fill="#39d353"/>
+  <rect x="700.5" y="308" width="1.5" height="12" rx="1" fill="#39d353"/>
+  <rect x="198" y="488" width="12" height="1.5" rx="1" fill="#39d353" opacity="0.5"/>
+  <rect x="198" y="476" width="1.5" height="12" rx="1" fill="#39d353" opacity="0.5"/>
+  <rect x="690" y="488" width="12" height="1.5" rx="1" fill="#39d353" opacity="0.5"/>
+  <rect x="700.5" y="476" width="1.5" height="12" rx="1" fill="#39d353" opacity="0.5"/>
+  <image href="https://github-readme-stats.vercel.app/api/top-langs/?username=Dhusyanth2005&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=39d353&text_color=c9d1d9&langs_count=8" x="200" y="311" width="500" height="186" clip-path="url(#clip-langs)" preserveAspectRatio="xMidYMid meet"/>
+
+</svg>
