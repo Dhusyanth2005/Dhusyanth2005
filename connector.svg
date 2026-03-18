@@ -1,0 +1,26 @@
+<svg width="900" height="56" viewBox="0 0 900 56" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="line-l" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#39d353" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="line-r" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#39d353" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="56" fill="#0d1117"/>
+
+  <!-- left line -->
+  <line x1="20" y1="28" x2="340" y2="28" stroke="url(#line-l)" stroke-width="0.7"/>
+  <!-- center diamond -->
+  <polygon points="450,20 462,28 450,36 438,28" fill="none" stroke="#39d353" stroke-width="1" stroke-opacity="0.5"/>
+  <polygon points="450,23 459,28 450,33 441,28" fill="#39d353" fill-opacity="0.12"/>
+  <circle cx="450" cy="28" r="2.5" fill="#39d353" opacity="0.7"/>
+  <!-- right line -->
+  <line x1="560" y1="28" x2="880" y2="28" stroke="url(#line-r)" stroke-width="0.7"/>
+
+  <!-- small dots on lines -->
+  <circle cx="200" cy="28" r="1.5" fill="#39d353" opacity="0.3"/>
+  <circle cx="700" cy="28" r="1.5" fill="#39d353" opacity="0.3"/>
+</svg>
