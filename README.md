@@ -36,20 +36,9 @@
 ---
 
 ## ◈ Who Am I
-
-```typescript
-const dhusyanth = {
-  name        : "Dhusyanth S",
-  role        : "Full Stack Developer (MERN)",
-  location    : "Tamil Nadu, India 🇮🇳",
-  education   : "B.Tech IT @ Sri Eshwar College of Engineering (2023–2027)",
-  cgpa        : 7.88,
-  experience  : "Full Stack Intern @ Code Kadai Solutions (6 months)",
-  focus       : ["Scalable Web Apps", "REST APIs", "3D Web Experiences"],
-  currentlyOn : "Building production-grade MERN applications",
-  openTo      : ["Full-Time Roles", "Internships", "Freelance Projects"],
-};
-```
+<div align="center">
+  <img src="./who_am_i.svg" width="100%" alt="Who Am I — Dhusyanth S"/>
+</div>
 
 ---
 
