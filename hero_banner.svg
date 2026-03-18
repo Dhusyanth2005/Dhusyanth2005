@@ -1,0 +1,193 @@
+<svg width="900" height="240" viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#060d0a"/>
+      <stop offset="50%"  stop-color="#0a1a10"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+
+    <!-- Green glow center -->
+    <radialGradient id="center-glow" cx="50%" cy="55%" r="45%">
+      <stop offset="0%"   stop-color="#39d353" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Left edge glow -->
+    <radialGradient id="left-glow" cx="0%" cy="50%" r="40%">
+      <stop offset="0%"   stop-color="#39d353" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Name gradient -->
+    <linearGradient id="name-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#ffffff"/>
+      <stop offset="60%"  stop-color="#e8f5e9"/>
+      <stop offset="100%" stop-color="#39d353"/>
+    </linearGradient>
+
+    <!-- Chip gradient -->
+    <linearGradient id="chip-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#112218"/>
+      <stop offset="100%" stop-color="#0a1a10"/>
+    </linearGradient>
+
+    <!-- Bottom wave mask -->
+    <linearGradient id="bottom-fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#0d1117" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="1"/>
+    </linearGradient>
+
+    <!-- Scanline mask -->
+    <pattern id="scanlines" x="0" y="0" width="1" height="4" patternUnits="userSpaceOnUse">
+      <rect width="1" height="1" fill="white" opacity="0.012"/>
+    </pattern>
+
+    <!-- Circuit dot grid -->
+    <pattern id="grid" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="0"  cy="0"  r="0.8" fill="#39d353" opacity="0.18"/>
+      <circle cx="30" cy="0"  r="0.8" fill="#39d353" opacity="0.18"/>
+      <circle cx="0"  cy="30" r="0.8" fill="#39d353" opacity="0.18"/>
+      <circle cx="30" cy="30" r="0.8" fill="#39d353" opacity="0.18"/>
+    </pattern>
+  </defs>
+
+  <!-- Base -->
+  <rect width="900" height="240" fill="url(#bg)"/>
+  <!-- Grid overlay -->
+  <rect width="900" height="240" fill="url(#grid)"/>
+  <!-- Center glow -->
+  <rect width="900" height="240" fill="url(#center-glow)"/>
+  <!-- Left glow -->
+  <rect width="900" height="240" fill="url(#left-glow)"/>
+  <!-- Scanlines -->
+  <rect width="900" height="240" fill="url(#scanlines)"/>
+
+  <!-- ── Circuit trace lines (background decoration) ── -->
+  <g stroke="#39d353" stroke-opacity="0.08" fill="none" stroke-width="1">
+    <!-- Horizontal traces -->
+    <line x1="0"   y1="60"  x2="200" y2="60"/>
+    <line x1="700" y1="60"  x2="900" y2="60"/>
+    <line x1="0"   y1="180" x2="150" y2="180"/>
+    <line x1="750" y1="180" x2="900" y2="180"/>
+    <!-- Vertical traces -->
+    <line x1="60"  y1="0"   x2="60"  y2="100"/>
+    <line x1="840" y1="140" x2="840" y2="240"/>
+    <line x1="120" y1="200" x2="120" y2="240"/>
+    <line x1="780" y1="0"   x2="780" y2="80"/>
+    <!-- L-shaped traces -->
+    <polyline points="200,60 220,60 220,100"/>
+    <polyline points="700,60 680,60 680,100"/>
+    <polyline points="150,180 130,180 130,140"/>
+    <polyline points="750,180 770,180 770,140"/>
+  </g>
+
+  <!-- ── Circuit junction dots ── -->
+  <g fill="#39d353" opacity="0.25">
+    <circle cx="200" cy="60"  r="3"/>
+    <circle cx="700" cy="60"  r="3"/>
+    <circle cx="150" cy="180" r="3"/>
+    <circle cx="750" cy="180" r="3"/>
+    <circle cx="220" cy="100" r="2"/>
+    <circle cx="680" cy="100" r="2"/>
+    <circle cx="130" cy="140" r="2"/>
+    <circle cx="770" cy="140" r="2"/>
+  </g>
+
+  <!-- ── Top chrome bar ── -->
+  <rect x="0" y="0" width="900" height="36" fill="#060d0a" fill-opacity="0.8"/>
+  <rect x="0" y="35" width="900" height="0.5" fill="#39d353" fill-opacity="0.2"/>
+
+  <!-- Window controls -->
+  <circle cx="22" cy="18" r="5" fill="#ff5f57" opacity="0.7"/>
+  <circle cx="42" cy="18" r="5" fill="#febc2e" opacity="0.7"/>
+  <circle cx="62" cy="18" r="5" fill="#28c840" opacity="0.7"/>
+
+  <!-- Chrome tab -->
+  <rect x="82" y="8" width="148" height="20" rx="4" fill="#0a1a10" stroke="#39d353" stroke-width="0.5" stroke-opacity="0.4"/>
+  <rect x="82" y="8" width="148" height="2" rx="1" fill="#39d353" opacity="0.7"/>
+  <text x="156" y="21" font-family="'Courier New', monospace" font-size="9" fill="#39d353" fill-opacity="0.8" text-anchor="middle" letter-spacing="0.5">~/portfolio/dhusyanth.sh</text>
+
+  <!-- Right chrome info -->
+  <rect x="776" y="10" width="108" height="16" rx="3" fill="#39d353" fill-opacity="0.08" stroke="#39d353" stroke-opacity="0.25" stroke-width="0.5"/>
+  <circle cx="789" cy="18" r="3" fill="#39d353" opacity="0.7"/>
+  <text x="836" y="22" font-family="'Courier New', monospace" font-size="8.5" fill="#39d353" fill-opacity="0.8" text-anchor="middle" letter-spacing="0.4">OPEN TO WORK</text>
+
+  <!-- ── MAIN NAME ── -->
+  <!-- Shadow layer -->
+  <text x="451" y="131" font-family="'Segoe UI', 'Arial Black', sans-serif" font-size="62" font-weight="900" fill="#39d353" fill-opacity="0.06" text-anchor="middle" letter-spacing="6">DHUSYANTH S</text>
+  <!-- Main name -->
+  <text x="450" y="128" font-family="'Segoe UI', 'Arial Black', sans-serif" font-size="62" font-weight="900" fill="url(#name-grad)" text-anchor="middle" letter-spacing="6">DHUSYANTH S</text>
+
+  <!-- ── Role subtitle ── -->
+  <!-- Decorative dashes -->
+  <line x1="190" y1="146" x2="284" y2="146" stroke="#39d353" stroke-opacity="0.35" stroke-width="0.8"/>
+  <circle cx="188" cy="146" r="2" fill="#39d353" opacity="0.5"/>
+  <line x1="616" y1="146" x2="710" y2="146" stroke="#39d353" stroke-opacity="0.35" stroke-width="0.8"/>
+  <circle cx="712" cy="146" r="2" fill="#39d353" opacity="0.5"/>
+
+  <text x="450" y="150" font-family="'Courier New', monospace" font-size="13" fill="#39d353" fill-opacity="0.9" text-anchor="middle" letter-spacing="3">FULL STACK DEVELOPER · MERN SPECIALIST</text>
+
+  <!-- ── Floating stat chips ── -->
+  <!-- Chip 1: MERN -->
+  <rect x="50" y="170" width="90" height="34" rx="6" fill="url(#chip-bg)" stroke="#39d353" stroke-width="0.7" stroke-opacity="0.5"/>
+  <rect x="50" y="170" width="90" height="2" rx="1" fill="#39d353" opacity="0.6"/>
+  <text x="95" y="183" font-family="'Courier New', monospace" font-size="8" fill="#39d353" fill-opacity="0.6" text-anchor="middle" letter-spacing="1">STACK</text>
+  <text x="95" y="196" font-family="'Courier New', monospace" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">MERN</text>
+
+  <!-- Chip 2: LeetCode -->
+  <rect x="160" y="170" width="108" height="34" rx="6" fill="url(#chip-bg)" stroke="#39d353" stroke-width="0.7" stroke-opacity="0.5"/>
+  <rect x="160" y="170" width="108" height="2" rx="1" fill="#39d353" opacity="0.6"/>
+  <text x="214" y="183" font-family="'Courier New', monospace" font-size="8" fill="#39d353" fill-opacity="0.6" text-anchor="middle" letter-spacing="1">LEETCODE</text>
+  <text x="214" y="196" font-family="'Courier New', monospace" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">300+ Solved</text>
+
+  <!-- Chip 3: Exp -->
+  <rect x="288" y="170" width="120" height="34" rx="6" fill="url(#chip-bg)" stroke="#39d353" stroke-width="0.7" stroke-opacity="0.5"/>
+  <rect x="288" y="170" width="120" height="2" rx="1" fill="#39d353" opacity="0.6"/>
+  <text x="348" y="183" font-family="'Courier New', monospace" font-size="8" fill="#39d353" fill-opacity="0.6" text-anchor="middle" letter-spacing="1">EXPERIENCE</text>
+  <text x="348" y="196" font-family="'Courier New', monospace" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">6mo Internship</text>
+
+  <!-- Chip 4: CGPA -->
+  <rect x="428" y="170" width="88" height="34" rx="6" fill="url(#chip-bg)" stroke="#39d353" stroke-width="0.7" stroke-opacity="0.5"/>
+  <rect x="428" y="170" width="88" height="2" rx="1" fill="#39d353" opacity="0.6"/>
+  <text x="472" y="183" font-family="'Courier New', monospace" font-size="8" fill="#39d353" fill-opacity="0.6" text-anchor="middle" letter-spacing="1">CGPA</text>
+  <text x="472" y="196" font-family="'Courier New', monospace" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">7.88 / 10</text>
+
+  <!-- Chip 5: College -->
+  <rect x="536" y="170" width="120" height="34" rx="6" fill="url(#chip-bg)" stroke="#39d353" stroke-width="0.7" stroke-opacity="0.5"/>
+  <rect x="536" y="170" width="120" height="2" rx="1" fill="#39d353" opacity="0.6"/>
+  <text x="596" y="183" font-family="'Courier New', monospace" font-size="8" fill="#39d353" fill-opacity="0.6" text-anchor="middle" letter-spacing="1">EDUCATION</text>
+  <text x="596" y="196" font-family="'Courier New', monospace" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">B.Tech IT 2027</text>
+
+  <!-- Chip 6: Location -->
+  <rect x="676" y="170" width="100" height="34" rx="6" fill="url(#chip-bg)" stroke="#39d353" stroke-width="0.7" stroke-opacity="0.5"/>
+  <rect x="676" y="170" width="100" height="2" rx="1" fill="#39d353" opacity="0.6"/>
+  <text x="726" y="183" font-family="'Courier New', monospace" font-size="8" fill="#39d353" fill-opacity="0.6" text-anchor="middle" letter-spacing="1">LOCATION</text>
+  <text x="726" y="196" font-family="'Courier New', monospace" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">Tamil Nadu 🇮🇳</text>
+
+  <!-- Chip 7: Focus -->
+  <rect x="796" y="170" width="90" height="34" rx="6" fill="url(#chip-bg)" stroke="#39d353" stroke-width="0.7" stroke-opacity="0.5"/>
+  <rect x="796" y="170" width="90" height="2" rx="1" fill="#39d353" opacity="0.6"/>
+  <text x="841" y="183" font-family="'Courier New', monospace" font-size="8" fill="#39d353" fill-opacity="0.6" text-anchor="middle" letter-spacing="1">FOCUS</text>
+  <text x="841" y="196" font-family="'Courier New', monospace" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">3D · APIs</text>
+
+  <!-- ── Corner bracket decorators ── -->
+  <!-- Top-left -->
+  <rect x="14" y="44" width="20" height="1.5" rx="1" fill="#39d353" opacity="0.6"/>
+  <rect x="14" y="44" width="1.5" height="20" rx="1" fill="#39d353" opacity="0.6"/>
+  <!-- Top-right -->
+  <rect x="866" y="44" width="20" height="1.5" rx="1" fill="#39d353" opacity="0.6"/>
+  <rect x="884.5" y="44" width="1.5" height="20" rx="1" fill="#39d353" opacity="0.6"/>
+  <!-- Bottom-left -->
+  <rect x="14" y="218" width="20" height="1.5" rx="1" fill="#39d353" opacity="0.3"/>
+  <rect x="14" y="196" width="1.5" height="24" rx="1" fill="#39d353" opacity="0.3"/>
+  <!-- Bottom-right -->
+  <rect x="866" y="218" width="20" height="1.5" rx="1" fill="#39d353" opacity="0.3"/>
+  <rect x="884.5" y="196" width="1.5" height="24" rx="1" fill="#39d353" opacity="0.3"/>
+
+  <!-- ── Bottom fade to blend into page ── -->
+  <rect x="0" y="200" width="900" height="40" fill="url(#bottom-fade)"/>
+
+  <!-- Outer border -->
+  <rect width="900" height="240" fill="none" stroke="#39d353" stroke-width="0.8" stroke-opacity="0.15" rx="0"/>
+</svg>
