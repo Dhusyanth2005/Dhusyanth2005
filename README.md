@@ -10,7 +10,7 @@
 
 <!-- TYPING ANIMATION -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=39D353&center=true&vCenter=true&width=650&lines=Building+scalable+MERN+applications+%F0%9F%9A%80;Turning+ideas+into+live+products+%E2%9C%A8;Open+to+exciting+opportunities+%F0%9F%8C%9F;300%2B+LeetCode+problems+solved+%F0%9F%A7%A0" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=39D353&center=true&vCenter=true&width=650&lines=Building+scalable+MERN+applications+%F0%9F%9A%80;Turning+ideas+into+live+products+%E2%9C%A8;Open+to+exciting+opportunities+%F0%9F%8C%9F;Available+for+Freelance+Projects+%F0%9F%92%BC" alt="Typing SVG"/>
 </a>
 
 <br/><br/>
