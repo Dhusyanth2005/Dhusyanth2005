@@ -1,0 +1,194 @@
+<svg width="900" height="620" viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&amp;family=Syne:wght@700;800&amp;display=swap');
+      .title-font { font-family: 'Syne', 'Segoe UI', sans-serif; }
+      .mono-font  { font-family: 'JetBrains Mono', 'Courier New', monospace; }
+    </style>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="620" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="card1-border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#39d353" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="card2-border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#378ADD" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#378ADD" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="card3-border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7F77DD" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#7F77DD" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="card4-border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D85A30" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#D85A30" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="card1-glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#39d353" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0.01"/>
+    </linearGradient>
+    <linearGradient id="card2-glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#378ADD" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#378ADD" stop-opacity="0.01"/>
+    </linearGradient>
+    <linearGradient id="card3-glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7F77DD" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#7F77DD" stop-opacity="0.01"/>
+    </linearGradient>
+    <linearGradient id="card4-glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D85A30" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#D85A30" stop-opacity="0.01"/>
+    </linearGradient>
+    <filter id="glow1">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="620" fill="url(#bg)" rx="16"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.03">
+    <line x1="0" y1="60" x2="900" y2="60" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="120" x2="900" y2="120" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="180" x2="900" y2="180" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="240" x2="900" y2="240" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="300" x2="900" y2="300" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="360" x2="900" y2="360" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="420" x2="900" y2="420" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="480" x2="900" y2="480" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="540" x2="900" y2="540" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="60" y1="0" x2="60" y2="620" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="180" y1="0" x2="180" y2="620" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="300" y1="0" x2="300" y2="620" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="420" y1="0" x2="420" y2="620" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="540" y1="0" x2="540" y2="620" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="660" y1="0" x2="660" y2="620" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="780" y1="0" x2="780" y2="620" stroke="#ffffff" stroke-width="0.5"/>
+  </g>
+
+  <!-- Header -->
+  <text x="36" y="50" class="title-font" font-size="22" font-weight="800" fill="#ffffff" letter-spacing="-0.5">◈ Featured Projects</text>
+  <line x1="260" y1="40" x2="820" y2="40" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+  <rect x="830" y="28" width="38" height="20" rx="4" fill="none" stroke="#39d353" stroke-width="1" stroke-opacity="0.6"/>
+  <text x="849" y="42" class="mono-font" font-size="9" fill="#39d353" text-anchor="middle" letter-spacing="0.5">4 ✦</text>
+
+  <!-- ─── CARD 1 · Abinexis ─── -->
+  <rect x="20" y="70" width="418" height="250" rx="12" fill="url(#card1-glow)" stroke="url(#card1-border)" stroke-width="1"/>
+  <rect x="20" y="70" width="418" height="3" rx="2" fill="#39d353" opacity="0.9"/>
+  <!-- number -->
+  <text x="402" y="110" class="title-font" font-size="40" font-weight="800" fill="#39d353" fill-opacity="0.07" text-anchor="end">01</text>
+  <!-- icon + name -->
+  <text x="40" y="104" font-size="18">🛒</text>
+  <text x="66" y="103" class="title-font" font-size="15" font-weight="800" fill="#ffffff">Abinexis</text>
+  <text x="40" y="120" class="mono-font" font-size="10" fill="#8b949e" font-style="italic">Live dropshipping platform with full order lifecycle</text>
+  <!-- divider -->
+  <line x1="40" y1="132" x2="418" y2="132" stroke="#ffffff" stroke-opacity="0.06" stroke-width="0.5"/>
+  <!-- features -->
+  <circle cx="48" cy="147" r="2.5" fill="#39d353"/>
+  <text x="58" y="151" class="mono-font" font-size="10" fill="#c9d1d9">JWT Auth + Google OAuth</text>
+  <circle cx="48" cy="165" r="2.5" fill="#39d353"/>
+  <text x="58" y="169" class="mono-font" font-size="10" fill="#c9d1d9">Razorpay payment integration</text>
+  <circle cx="48" cy="183" r="2.5" fill="#39d353"/>
+  <text x="58" y="187" class="mono-font" font-size="10" fill="#c9d1d9">TanStack Query for optimized fetching</text>
+  <circle cx="48" cy="201" r="2.5" fill="#39d353"/>
+  <text x="58" y="205" class="mono-font" font-size="10" fill="#c9d1d9">Cart, orders &amp; product management</text>
+  <!-- divider -->
+  <line x1="40" y1="218" x2="418" y2="218" stroke="#ffffff" stroke-opacity="0.06" stroke-width="0.5"/>
+  <!-- badges -->
+  <rect x="40" y="226" width="46" height="17" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="63" y="238" class="mono-font" font-size="9" fill="#8b949e" text-anchor="middle">React</text>
+  <rect x="92" y="226" width="48" height="17" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="116" y="238" class="mono-font" font-size="9" fill="#8b949e" text-anchor="middle">Node.js</text>
+  <rect x="146" y="226" width="56" height="17" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="174" y="238" class="mono-font" font-size="9" fill="#8b949e" text-anchor="middle">MongoDB</text>
+  <rect x="208" y="226" width="56" height="17" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="236" y="238" class="mono-font" font-size="9" fill="#8b949e" text-anchor="middle">Razorpay</text>
+  <!-- live button -->
+  <rect x="340" y="224" width="86" height="22" rx="5" fill="#39d353" fill-opacity="0.12" stroke="#39d353" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="383" y="239" class="mono-font" font-size="9" font-weight="600" fill="#39d353" text-anchor="middle" letter-spacing="0.5">↗ LIVE DEMO</text>
+
+  <!-- ─── CARD 2 · FolioStack ─── -->
+  <rect x="462" y="70" width="418" height="250" rx="12" fill="url(#card2-glow)" stroke="url(#card2-border)" stroke-width="1"/>
+  <rect x="462" y="70" width="418" height="3" rx="2" fill="#378ADD" opacity="0.9"/>
+  <text x="844" y="110" class="title-font" font-size="40" font-weight="800" fill="#378ADD" fill-opacity="0.07" text-anchor="end">02</text>
+  <text x="482" y="104" font-size="18">🗂</text>
+  <text x="508" y="103" class="title-font" font-size="15" font-weight="800" fill="#ffffff">FolioStack</text>
+  <text x="482" y="120" class="mono-font" font-size="10" fill="#8b949e" font-style="italic">No-code portfolio creation platform</text>
+  <line x1="482" y1="132" x2="860" y2="132" stroke="#ffffff" stroke-opacity="0.06" stroke-width="0.5"/>
+  <circle cx="490" cy="147" r="2.5" fill="#378ADD"/>
+  <text x="500" y="151" class="mono-font" font-size="10" fill="#c9d1d9">Ready-made responsive templates</text>
+  <circle cx="490" cy="165" r="2.5" fill="#378ADD"/>
+  <text x="500" y="169" class="mono-font" font-size="10" fill="#c9d1d9">Secure auth + content management</text>
+  <circle cx="490" cy="183" r="2.5" fill="#378ADD"/>
+  <text x="500" y="187" class="mono-font" font-size="10" fill="#c9d1d9">Publish portfolios online instantly</text>
+  <circle cx="490" cy="201" r="2.5" fill="#378ADD"/>
+  <text x="500" y="205" class="mono-font" font-size="10" fill="#c9d1d9">Real-time edit and preview</text>
+  <line x1="482" y1="218" x2="860" y2="218" stroke="#ffffff" stroke-opacity="0.06" stroke-width="0.5"/>
+  <rect x="482" y="226" width="46" height="17" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="505" y="238" class="mono-font" font-size="9" fill="#8b949e" text-anchor="middle">React</text>
+  <rect x="534" y="226" width="52" height="17" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="560" y="238" class="mono-font" font-size="9" fill="#8b949e" text-anchor="middle">Express</text>
+  <rect x="592" y="226" width="56" height="17" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="620" y="238" class="mono-font" font-size="9" fill="#8b949e" text-anchor="middle">MongoDB</text>
+  <rect x="654" y="226" width="36" height="17" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="672" y="238" class="mono-font" font-size="9" fill="#8b949e" text-anchor="middle">JWT</text>
+  <rect x="782" y="224" width="86" height="22" rx="5" fill="#378ADD" fill-opacity="0.12" stroke="#378ADD" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="825" y="239" class="mono-font" font-size="9" font-weight="600" fill="#378ADD" text-anchor="middle" letter-spacing="0.5">↗ LIVE DEMO</text>
+
+  <!-- ─── CARD 3 · EduViz ─── -->
+  <rect x="20" y="340" width="418" height="250" rx="12" fill="url(#card3-glow)" stroke="url(#card3-border)" stroke-width="1"/>
+  <rect x="20" y="340" width="418" height="3" rx="2" fill="#7F77DD" opacity="0.9"/>
+  <text x="402" y="380" class="title-font" font-size="40" font-weight="800" fill="#7F77DD" fill-opacity="0.07" text-anchor="end">03</text>
+  <text x="40" y="374" font-size="18">🧊</text>
+  <text x="66" y="373" class="title-font" font-size="15" font-weight="800" fill="#ffffff">EduViz</text>
+  <text x="40" y="390" class="mono-font" font-size="10" fill="#8b949e" font-style="italic">Interactive 3D educational content delivery</text>
+  <line x1="40" y1="402" x2="418" y2="402" stroke="#ffffff" stroke-opacity="0.06" stroke-width="0.5"/>
+  <circle cx="48" cy="417" r="2.5" fill="#7F77DD"/>
+  <text x="58" y="421" class="mono-font" font-size="10" fill="#c9d1d9">Google Model Viewer integration</text>
+  <circle cx="48" cy="435" r="2.5" fill="#7F77DD"/>
+  <text x="58" y="439" class="mono-font" font-size="10" fill="#c9d1d9">MongoDB GridFS for large 3D files</text>
+  <circle cx="48" cy="453" r="2.5" fill="#7F77DD"/>
+  <text x="58" y="457" class="mono-font" font-size="10" fill="#c9d1d9">Real-time model streaming</text>
+  <circle cx="48" cy="471" r="2.5" fill="#7F77DD"/>
+  <text x="58" y="475" class="mono-font" font-size="10" fill="#c9d1d9">Role-based secure access</text>
+  <line x1="40" y1="488" x2="418" y2="488" stroke="#ffffff" stroke-opacity="0.06" stroke-width="0.5"/>
+  <rect x="40" y="496" width="54" height="17" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="67" y="508" class="mono-font" font-size="9" fill="#8b949e" text-anchor="middle">Three.js</text>
+  <rect x="100" y="496" width="56" height="17" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="128" y="508" class="mono-font" font-size="9" fill="#8b949e" text-anchor="middle">MongoDB</text>
+  <rect x="162" y="496" width="48" height="17" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="186" y="508" class="mono-font" font-size="9" fill="#8b949e" text-anchor="middle">Node.js</text>
+  <rect x="340" y="494" width="86" height="22" rx="5" fill="#7F77DD" fill-opacity="0.12" stroke="#7F77DD" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="383" y="509" class="mono-font" font-size="9" font-weight="600" fill="#7F77DD" text-anchor="middle" letter-spacing="0.5">↗ LIVE DEMO</text>
+
+  <!-- ─── CARD 4 · Social Media ─── -->
+  <rect x="462" y="340" width="418" height="250" rx="12" fill="url(#card4-glow)" stroke="url(#card4-border)" stroke-width="1"/>
+  <rect x="462" y="340" width="418" height="3" rx="2" fill="#D85A30" opacity="0.9"/>
+  <text x="844" y="380" class="title-font" font-size="40" font-weight="800" fill="#D85A30" fill-opacity="0.07" text-anchor="end">04</text>
+  <text x="482" y="374" font-size="18">📱</text>
+  <text x="508" y="373" class="title-font" font-size="15" font-weight="800" fill="#ffffff">Social Media App</text>
+  <text x="482" y="390" class="mono-font" font-size="10" fill="#8b949e" font-style="italic">Full-featured social platform with rich interactions</text>
+  <line x1="482" y1="402" x2="860" y2="402" stroke="#ffffff" stroke-opacity="0.06" stroke-width="0.5"/>
+  <circle cx="490" cy="417" r="2.5" fill="#D85A30"/>
+  <text x="500" y="421" class="mono-font" font-size="10" fill="#c9d1d9">Post, like, comment &amp; delete</text>
+  <circle cx="490" cy="435" r="2.5" fill="#D85A30"/>
+  <text x="500" y="439" class="mono-font" font-size="10" fill="#c9d1d9">Cloudinary media uploads</text>
+  <circle cx="490" cy="453" r="2.5" fill="#D85A30"/>
+  <text x="500" y="457" class="mono-font" font-size="10" fill="#c9d1d9">Optimized image delivery</text>
+  <circle cx="490" cy="471" r="2.5" fill="#D85A30"/>
+  <text x="500" y="475" class="mono-font" font-size="10" fill="#c9d1d9">JWT-based auth system</text>
+  <line x1="482" y1="488" x2="860" y2="488" stroke="#ffffff" stroke-opacity="0.06" stroke-width="0.5"/>
+  <rect x="482" y="496" width="46" height="17" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="505" y="508" class="mono-font" font-size="9" fill="#8b949e" text-anchor="middle">React</text>
+  <rect x="534" y="496" width="48" height="17" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="558" y="508" class="mono-font" font-size="9" fill="#8b949e" text-anchor="middle">Node.js</text>
+  <rect x="588" y="496" width="62" height="17" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="619" y="508" class="mono-font" font-size="9" fill="#8b949e" text-anchor="middle">Cloudinary</text>
+  <rect x="782" y="494" width="86" height="22" rx="5" fill="#D85A30" fill-opacity="0.12" stroke="#D85A30" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="825" y="509" class="mono-font" font-size="9" font-weight="600" fill="#D85A30" text-anchor="middle" letter-spacing="0.5">↗ LIVE DEMO</text>
+
+</svg>
