@@ -96,18 +96,10 @@ const dhusyanth = {
 </div>
 ---
 
-## ◈ GitHub Metrics
-
 <div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Dhusyanth2005&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=39d353&icon_color=39d353&text_color=c9d1d9&ring_color=39d353" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Dhusyanth2005&theme=tokyonight&hide_border=true&background=0d1117&stroke=39d353&ring=39d353&fire=00ff7f&currStreakLabel=39d353&sideLabels=39d353&dates=c9d1d9" />
-
-<br/>
-
-<img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dhusyanth2005&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=39d353&text_color=c9d1d9&langs_count=8" />
-
+  <img src="./github_metrics.svg" width="100%" alt="GitHub Metrics"/>
 </div>
+
 
 ---
 
