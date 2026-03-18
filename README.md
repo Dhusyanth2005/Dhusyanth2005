@@ -91,85 +91,10 @@ const dhusyanth = {
 ---
 
 ## ◈ Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🛒 Abinexis — E-Commerce Platform
-> *Live dropshipping platform with full order lifecycle*
-
-- 🔐 JWT Auth + Google OAuth
-- 💳 Razorpay payment integration
-- ⚡ TanStack Query for optimized data fetching
-- 📦 Cart, orders, and product management
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node-339933?style=flat&logo=nodedotjs&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![Razorpay](https://img.shields.io/badge/Razorpay-02042B?style=flat&logo=razorpay&logoColor=white)
-
-[![Live](https://img.shields.io/badge/🌐_Live_Demo-39d353?style=for-the-badge)](https://github.com/Dhusyanth2005)
-
-</td>
-<td width="50%" valign="top">
-
-### 🗂 FolioStack — Portfolio Builder
-> *No-code portfolio creation platform*
-
-- 🎨 Ready-made responsive templates
-- 🔐 Secure auth + content management
-- 🌍 Publish portfolios online instantly
-- ✏️ Real-time edit and preview
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)
-
-[![Live](https://img.shields.io/badge/🌐_Live_Demo-39d353?style=for-the-badge)](https://github.com/Dhusyanth2005)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 🧊 EduViz — 3D Learning Platform
-> *Interactive 3D educational content delivery*
-
-- 🌐 Google Model Viewer integration
-- 🗄 MongoDB GridFS for large 3D files
-- 🔄 Real-time model streaming
-- 🔒 Role-based secure access
-
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat&logo=threedotjs&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node-339933?style=flat&logo=nodedotjs&logoColor=white)
-
-[![Live](https://img.shields.io/badge/🌐_Live_Demo-39d353?style=for-the-badge)](https://github.com/Dhusyanth2005)
-
-</td>
-<td width="50%" valign="top">
-
-### 📱 Social Media App
-> *Full-featured social platform with rich interactions*
-
-- 📝 Post, like, comment, delete
-- ☁️ Cloudinary media uploads
-- 📸 Optimized image delivery
-- 🔐 JWT-based auth system
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node-339933?style=flat&logo=nodedotjs&logoColor=white)
-![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=flat&logo=cloudinary&logoColor=white)
-
-[![Live](https://img.shields.io/badge/🌐_Live_Demo-39d353?style=for-the-badge)](https://github.com/Dhusyanth2005)
-
-</td>
-</tr>
-</table>
-
+ 
+<div align="center">
+  <img src="./featured_projects.svg" width="100%" alt="Featured Projects"/>
+</div>
 ---
 
 ## ◈ GitHub Metrics
