@@ -1,35 +1,48 @@
 <div align="center">
 
-<!-- DYNAMIC BANNER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020c07,50:0a2e1a,100:0d3b22&height=200&section=header&text=Dhusyanth%20S&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20MERN%20Specialist&descAlignY=58&descSize=18&descColor=39d353" />
+<!-- ╔══════════════════════════════════════╗ -->
+<!--       HERO BANNER — custom SVG         -->
+<!-- ╚══════════════════════════════════════╝ -->
+<img width="100%" src="./hero_banner.svg" alt="Dhusyanth S — Full Stack Developer"/>
+
+<!-- connector -->
+<img width="100%" src="./connector.svg" alt=""/>
 
 <!-- TYPING ANIMATION -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=39D353&center=true&vCenter=true&width=600&lines=Building+scalable+MERN+applications+%F0%9F%9A%80;Turning+ideas+into+live+products+%E2%9C%A8;Open+to+exciting+opportunities+%F0%9F%8C%9F;300%2B+LeetCode+problems+solved+%F0%9F%A7%A0" alt="Typing SVG" />
-</a>
-
-<br/>
-
-<!-- SOCIAL BADGES -->
-<a href="https://linkedin.com/in/dhusyanth-s" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://github.com/Dhusyanth2005" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<a href="https://leetcode.com/Dhusyanth2005" target="_blank">
-  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
-</a>
-<a href="https://www.codechef.com/users/dhusyanth" target="_blank">
-  <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
-</a>
-<a href="mailto:dhusyanth.s2023it@sece.ac.in" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=39D353&center=true&vCenter=true&width=650&lines=Building+scalable+MERN+applications+%F0%9F%9A%80;Turning+ideas+into+live+products+%E2%9C%A8;Open+to+exciting+opportunities+%F0%9F%8C%9F;300%2B+LeetCode+problems+solved+%F0%9F%A7%A0" alt="Typing SVG"/>
 </a>
 
 <br/><br/>
 
+<!-- SOCIAL BADGES -->
+<a href="https://linkedin.com/in/dhusyanth-s" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+&nbsp;
+<a href="https://github.com/Dhusyanth2005" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+&nbsp;
+<a href="https://leetcode.com/Dhusyanth2005" target="_blank">
+  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
+</a>
+&nbsp;
+<a href="https://www.codechef.com/users/dhusyanth" target="_blank">
+  <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/>
+</a>
+&nbsp;
+<a href="mailto:dhusyanth.s2023it@sece.ac.in" target="_blank">
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<br/><br/>
+
+<!-- PROFILE VIEWS -->
 ![Profile Views](https://komarev.com/ghpvc/?username=Dhusyanth2005&color=39d353&style=for-the-badge&label=PROFILE+VIEWS)
+
+<!-- bottom divider -->
+<img width="100%" src="./divider_badges.svg" alt=""/>
 
 </div>
 
